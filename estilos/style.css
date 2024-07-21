@@ -96,10 +96,15 @@ main div#frase > p {
     text-align: center;
 }
 
+div#sujestao, .icon-presente {
+    float: right;
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 800px) {
     main div#frase {
         position: absolute;
-        top: 50%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, 50%);
         background-color: rgba(88, 87, 87, 0.301);
